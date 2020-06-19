@@ -1,0 +1,98 @@
+header {
+    background-color: sandybrown; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   text-decoration-color: cadetblue; 
+   height: 110px;
+   font-size: xx-large;
+   margin-bottom: 10px;
+   padding-top: 5px;
+   border-radius: 5px;
+}
+nav {
+    background-color: gainsboro;
+    height:50px;
+    font-family: monospace;
+    font-size: xx-large;
+    border-radius: 8px; 
+}
+article {
+    background-color:red;
+    color:sandybrown;
+    border-width: 30px;
+    float: right;
+    height: 800px;
+    /* text-align: center; */
+    font-size: large;
+    width: 850px;
+    margin-top: 10px;
+    margin-right: 3px;
+    padding: 10px;
+    line-height: 23px;
+}
+aside {
+    background-color:wheat;
+    font-size: medium;
+    border-width:auto;
+    height: 800px;
+    width: 100px;
+    float: left;
+    font-size: medium;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: large;
+    padding: 10px 8px;
+    text-size-adjust: 10px;
+    border-radius: 5px;
+}
+footer {
+    background-color: lawngreen;
+    height: 80px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    clear: both;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+}
+li, a {
+    float: left;
+    /* list-style-type: none ; */  /*this not working*/
+    text-decoration: none;
+    display: block;
+    color:green;
+    padding: 5px;
+}
+.name {
+    margin-right: 460px;
+    margin-top: 10px;
+    float: none;
+}
+p::first-letter {
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+a.highlight:hover {
+    color: blue;
+}
+img.top {
+    vertical-align: middle;
+}
+img.middle {
+    vertical-align: top;
+}
+img.bottom {
+    vertical-align: middle;
+}
+img.default {
+    vertical-align: default;
+}
+p.impact {
+    font-family: Charcoal, sans-serif;
+}
